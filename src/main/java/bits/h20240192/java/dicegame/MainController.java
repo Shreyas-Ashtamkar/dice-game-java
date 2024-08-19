@@ -39,7 +39,7 @@ public class MainController {
     @FXML
     protected void onRollButtonClick(ActionEvent event) {
         PauseTransition pause = new PauseTransition(
-            Duration.seconds(1.8)
+            Duration.seconds(1.5)
         );
 
         game.rollDice();
@@ -61,7 +61,7 @@ public class MainController {
                 }
         );
 
-        if ((game.getDiceValueSum()) == 7){
+        if (game.checkWin()){
             diceFaceValueSum.setBackground(new Background(new BackgroundFill(Color.GREEN, CornerRadii.EMPTY, Insets.EMPTY)));
             diceFaceValueSum.setTextFill(Color.WHITE);
             pause.play();

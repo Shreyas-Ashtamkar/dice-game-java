@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8f8b959-38a2-4db6-8ce7-d258ae525536" name="Changes" comment="Created basic Dice Game">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/GameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/MainControllerBkp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f8f8b959-38a2-4db6-8ce7-d258ae525536" name="Changes" comment="OOPS : Added Dice and GameBoard Classes">
+      <change beforePath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/GameBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +124,7 @@
       <updated>1724067134250</updated>
       <workItem from="1724067134917" duration="745000" />
       <workItem from="1724071879314" duration="5458000" />
-      <workItem from="1724082313626" duration="12821000" />
+      <workItem from="1724082313626" duration="13439000" />
     </task>
     <task id="LOCAL-00001" summary="Created basic Dice Game">
       <option name="closed" value="true" />
@@ -145,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724090668013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="OOPS : Added Dice and GameBoard Classes">
+      <option name="closed" value="true" />
+      <created>1724096266378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724096266378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +158,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created basic Dice Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created basic Dice Game" />
+    <MESSAGE value="OOPS : Added Dice and GameBoard Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOPS : Added Dice and GameBoard Classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

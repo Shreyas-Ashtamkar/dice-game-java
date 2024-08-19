@@ -1,8 +1,11 @@
 package bits.h20240192.java.dicegame;
 
+import java.util.Arrays;
+
 public class GameBoard {
     protected int diceCount;
     protected Dice[] dices;
+    protected int winConditionValue;
 
     public GameBoard(int diceCount) {
         this(diceCount, 6);
@@ -14,6 +17,7 @@ public class GameBoard {
         for(int i = 0; i < diceCount; i++) {
             dices[i] = new Dice(diceFaces);
         }
+        winConditionValue = 7;
     }
 
     public void rollDice(){
@@ -22,13 +26,10 @@ public class GameBoard {
     }
 
     public int getDiceValueSum(){
-        int sum = 0;
-        for(Dice d : dices)
-            sum += d.getFaceValue();
-        return sum;
+        return Arrays.stream(dices).mapToInt(Dice::getFaceValue).sum();
     }
 
     public boolean checkWin(){
-        return getDiceValueSum() == 7;
+        return getDiceValueSum() == winConditionValue;
     }
 }
