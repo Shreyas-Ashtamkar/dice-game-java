@@ -4,32 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8f8b959-38a2-4db6-8ce7-d258ae525536" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bits/h20240192/java/dicegame/home-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bits/h20240192/java/dicegame/win-view.fxml" afterDir="false" />
+    <list default="true" id="f8f8b959-38a2-4db6-8ce7-d258ae525536" name="Changes" comment="OOPS : Added Dice and GameBoard Classes">
+      <change beforePath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bits/h20240192/java/dicegame/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Shreyas-Ashtamkar"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Shreyas-Ashtamkar/dice-game-java.git",
+    "accountId": "f6cd1185-aedb-48a5-bfc3-1c08ad2f188a"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -37,11 +42,16 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2ksL2ZcGlQXz99xMmRlxxRLZayX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,6 +81,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shrey\IdeaProjects\DiceGame\src\main\resources\bits\h20240192\java\dicegame" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bits.h20240192.java.dicegame" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,12 +124,42 @@
       <updated>1724067134250</updated>
       <workItem from="1724067134917" duration="745000" />
       <workItem from="1724071879314" duration="5458000" />
-      <workItem from="1724082313626" duration="7493000" />
+      <workItem from="1724082313626" duration="13439000" />
     </task>
+    <task id="LOCAL-00001" summary="Created basic Dice Game">
+      <option name="closed" value="true" />
+      <created>1724090643231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724090643231</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created basic Dice Game">
+      <option name="closed" value="true" />
+      <created>1724090668013</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724090668013</updated>
+    </task>
+    <task id="LOCAL-00003" summary="OOPS : Added Dice and GameBoard Classes">
+      <option name="closed" value="true" />
+      <created>1724096266378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724096266378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created basic Dice Game" />
+    <MESSAGE value="OOPS : Added Dice and GameBoard Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOPS : Added Dice and GameBoard Classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -19,7 +19,6 @@ import javafx.util.Duration;
 
 import java.io.IOException;
 import java.util.Objects;
-import java.util.Random;
 
 public class MainController {
     @FXML
@@ -29,13 +28,9 @@ public class MainController {
     @FXML
     private Label diceFaceValueSum;
 
-    Random dice = new Random();
-
-    int diceValue1;
-    int diceValue2;
+    private static final GameBoard game = new GameBoard(2);
 
     protected void changeScene(Stage stage, String scene_name) throws IOException {
-//        "win-.fxml"
         Parent root = FXMLLoader.load(Objects.requireNonNull(MainController.class.getResource(scene_name)));
         stage.setScene(new Scene(root));
         stage.show();
@@ -44,16 +39,15 @@ public class MainController {
     @FXML
     protected void onRollButtonClick(ActionEvent event) {
         PauseTransition pause = new PauseTransition(
-            Duration.seconds(1.8)
+            Duration.seconds(1.5)
         );
 
-        diceValue1 = dice.nextInt(1, 7);
-        diceValue2 = dice.nextInt(1, 7);
+        game.rollDice();
 
-        diceFaceValue1.setText(diceValue1+"");
-        diceFaceValue2.setText(diceValue2+"");
+        diceFaceValue1.setText(game.dices[0].getFaceValue()+"");
+        diceFaceValue2.setText(game.dices[1].getFaceValue()+"");
 
-        diceFaceValueSum.setText(diceValue1+diceValue2+"");
+        diceFaceValueSum.setText(game.getDiceValueSum()+"");
 
         Button rollButton = (Button) event.getSource();
 
@@ -67,7 +61,7 @@ public class MainController {
                 }
         );
 
-        if ((diceValue1+diceValue2) == 7){
+        if (game.checkWin()){
             diceFaceValueSum.setBackground(new Background(new BackgroundFill(Color.GREEN, CornerRadii.EMPTY, Insets.EMPTY)));
             diceFaceValueSum.setTextFill(Color.WHITE);
             pause.play();
