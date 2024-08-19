@@ -42,7 +42,7 @@ public class MainController {
     }
 
     @FXML
-    protected void onRollButtonClick(ActionEvent event) throws IOException {
+    protected void onRollButtonClick(ActionEvent event) {
         PauseTransition pause = new PauseTransition(
             Duration.seconds(1.8)
         );
